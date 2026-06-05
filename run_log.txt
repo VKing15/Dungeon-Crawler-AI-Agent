@@ -1,0 +1,112 @@
+Turn 001 | goal=explore room | action=move_south | milestone=rooms 1/8
+Turn 002 | goal=explore room | action=move_south
+Turn 003 | goal=explore room | action=move_south
+Turn 004 | goal=cross corridor | action=move_west
+Turn 005 | goal=cross corridor | action=move_south
+Turn 006 | goal=go to key | action=move_south | milestone=key discovered | milestone=rooms 2/8
+Turn 007 | goal=go to key | action=move_south
+Turn 008 | goal=go to key | action=move_east
+Turn 009 | goal=pick up key | action=pick_up | milestone=key collected | status=key collected
+Turn 010 | goal=explore room | action=move_south
+Turn 011 | goal=explore room | action=move_west
+Turn 012 | goal=explore room | action=move_south
+Turn 013 | goal=explore room | action=move_south
+Turn 014 | goal=cross corridor | action=move_south
+Turn 015 | goal=explore room | action=move_south | milestone=rooms 3/8
+Turn 016 | goal=explore room | action=move_south
+Turn 017 | goal=explore room | action=move_south
+Turn 018 | goal=explore room | action=move_east
+Turn 019 | goal=explore room | action=move_south
+Turn 020 | goal=explore room | action=move_south
+Turn 021 | goal=cross corridor | action=move_east
+Turn 022 | goal=cross corridor | action=move_south
+Turn 023 | goal=explore room | action=move_south | milestone=rooms 4/8
+Turn 024 | goal=explore room | action=move_east
+Turn 025 | goal=explore room | action=move_east
+Turn 026 | goal=explore room | action=move_east
+Turn 027 | goal=cross corridor | action=move_east
+Turn 028 | goal=cross corridor | action=move_east
+Turn 029 | goal=cross corridor | action=move_north
+Turn 030 | goal=cross corridor | action=move_north
+Turn 031 | goal=cross corridor | action=move_north
+Turn 032 | goal=cross corridor | action=move_north
+Turn 033 | goal=cross corridor | action=move_east
+Turn 034 | goal=cross corridor | action=move_east
+Turn 035 | goal=explore room | action=move_east | milestone=rooms 5/8
+Turn 036 | goal=explore room | action=move_east
+Turn 037 | goal=explore room | action=move_east
+Turn 038 | goal=explore room | action=move_east
+Turn 039 | goal=explore room | action=move_south
+Turn 040 | goal=explore room | action=move_south
+Turn 041 | goal=cross corridor | action=move_west
+Turn 042 | goal=cross corridor | action=move_south
+Turn 043 | goal=go to exit | action=move_south | milestone=exit discovered | milestone=rooms 6/8
+Turn 044 | goal=go to exit | action=move_south | result=escaped
+Turn 001 | goal=explore room | action=move_east | milestone=rooms 1/8
+Turn 002 | goal=explore room | action=move_east
+Turn 003 | goal=explore room | action=move_east
+Turn 004 | goal=explore room | action=move_east
+Turn 005 | goal=cross corridor | action=move_south
+Turn 006 | goal=cross corridor | action=move_east
+Turn 007 | goal=cross corridor | action=move_east
+Turn 008 | goal=cross corridor | action=move_east
+Turn 009 | goal=cross corridor | action=move_east
+Turn 010 | goal=go to key | action=move_east | milestone=key discovered | milestone=rooms 2/8
+Turn 011 | goal=go to key | action=move_north
+Turn 012 | goal=go to key | action=move_east
+Turn 013 | goal=go to key | action=move_east
+Turn 014 | goal=pick up key | action=pick_up | milestone=key collected | status=key collected
+Turn 015 | goal=explore room | action=move_south
+Turn 016 | goal=explore room | action=move_east
+Turn 017 | goal=explore room | action=move_south
+Turn 018 | goal=explore room | action=move_south
+Turn 019 | goal=cross corridor | action=move_west
+Turn 020 | goal=cross corridor | action=move_south
+Turn 021 | goal=explore room | action=move_south | milestone=rooms 3/8
+Turn 022 | goal=explore room | action=move_south
+Turn 023 | goal=explore room | action=move_south
+Turn 024 | goal=explore room | action=move_west
+Turn 025 | goal=explore room | action=move_south
+Turn 026 | goal=explore room | action=move_south
+Turn 027 | goal=cross corridor | action=move_east
+Turn 028 | goal=cross corridor | action=move_south
+Turn 029 | goal=explore room | action=move_south | milestone=rooms 4/8
+Turn 030 | goal=explore room | action=move_west
+Turn 031 | goal=explore room | action=move_west
+Turn 032 | goal=explore room | action=move_west
+Turn 033 | goal=explore room | action=move_west
+Turn 034 | goal=cross corridor | action=move_west
+Turn 035 | goal=cross corridor | action=move_west
+Turn 036 | goal=cross corridor | action=move_west
+Turn 037 | goal=cross corridor | action=move_north
+Turn 038 | goal=cross corridor | action=move_north
+Turn 039 | goal=cross corridor | action=move_north
+Turn 040 | goal=cross corridor | action=move_north
+Turn 041 | goal=cross corridor | action=move_west
+Turn 042 | goal=explore room | action=move_west | milestone=rooms 5/8
+Turn 043 | goal=explore room | action=move_west
+Turn 044 | goal=explore room | action=move_south
+Turn 045 | goal=explore room | action=move_south
+Turn 046 | goal=cross corridor | action=move_west
+Turn 047 | goal=cross corridor | action=move_south
+Turn 048 | goal=explore room | action=move_south | milestone=rooms 6/8
+Turn 049 | goal=explore room | action=move_south
+Turn 050 | goal=explore room | action=move_south
+Turn 051 | goal=explore room | action=move_south
+Turn 052 | goal=explore room | action=move_south
+Turn 053 | goal=cross corridor | action=move_west
+Turn 054 | goal=cross corridor | action=move_south
+Turn 055 | goal=explore room | action=move_south | milestone=rooms 7/8
+Turn 056 | goal=explore room | action=move_east
+Turn 057 | goal=explore room | action=move_east
+Turn 058 | goal=explore room | action=move_east
+Turn 059 | goal=explore room | action=move_east
+Turn 060 | goal=explore room | action=move_east
+Turn 061 | goal=cross corridor | action=move_east
+Turn 062 | goal=cross corridor | action=move_east
+Turn 063 | goal=cross corridor | action=move_east
+Turn 064 | goal=cross corridor | action=move_east
+Turn 065 | goal=go to exit | action=move_east | milestone=exit discovered | milestone=rooms 8/8
+Turn 066 | goal=go to exit | action=move_south
+Turn 067 | goal=go to exit | action=move_east
+Turn 068 | goal=go to exit | action=move_east | result=escaped

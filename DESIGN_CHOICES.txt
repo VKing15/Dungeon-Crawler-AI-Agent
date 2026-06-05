@@ -1,0 +1,72 @@
+## Development Process
+
+The project was developed iteratively over multiple versions rather than being designed all at once.
+
+The earliest prototype consisted of a simple maze environment where the agent explored using local observations. While this demonstrated basic movement and perception, the agent frequently became trapped in loops and repeatedly revisited previously explored locations.
+
+To create a more interesting challenge, the environment was redesigned into a dungeon composed of rooms connected by corridors. This introduced long-term navigation decisions and required the agent to maintain memory of previously discovered locations.
+
+As the project evolved, several major issues were identified:
+
+- The robot repeatedly oscillated between rooms and corridors.
+- The robot revisited already explored doors instead of investigating new areas.
+- Complex corridor networks caused the agent to become trapped in local loops.
+- Frequent goal switching prevented the agent from committing to exploration decisions.
+- Purely local decision-making often resulted in inefficient exploration.
+
+To address these challenges, the following systems were gradually introduced:
+
+- Persistent room memory.
+- Door visitation tracking.
+- Corridor exploration memory.
+- Frontier-based exploration heuristics.
+- Goal commitment behaviour within corridors.
+- Loop avoidance and anti-oscillation penalties.
+- Recovery behaviour when exploration stalled.
+
+Each iteration improved the reliability of exploration and reduced repetitive behaviour. The final system is significantly more robust than the original prototype and is capable of consistently finding the key and escaping the dungeon.
+
+---
+
+## Agent Harness Design
+
+The core focus of the project was the interface between the agent and the environment.
+
+The environment produces structured observations.
+The agent stores relevant information in memory.
+The planner selects high-level goals.
+The environment executes actions and returns feedback.
+
+This observe → reason → act loop forms the agent harness.
+
+---
+
+## Environment and Art Design
+
+The visual assets used in the project were created manually using Krita.
+
+Rather than relying on downloaded asset packs, the dungeon tiles, doors, walls, key, exit, and robot sprite were hand-drawn specifically for this project. The intention was to create a simple but visually distinct environment that clearly communicates rooms, corridors, doors, objectives, and agent state.
+
+The environment itself also evolved throughout development. Early versions consisted primarily of maze layouts, while later versions focused on room-and-corridor structures. This change was made because room-based exploration creates more meaningful decisions for an autonomous agent and better demonstrates memory, planning, and navigation behaviour.
+
+---
+
+## What Worked
+
+- Partial observability combined with persistent memory.
+- Separating high-level reasoning from low-level pathfinding.
+- Explicit tracking of room and door exploration state.
+- Goal-oriented tasks involving a key and locked exit.
+- Room-and-corridor environments that encourage strategic exploration.
+
+---
+
+## What Didn't Work
+
+- Purely local exploration without memory.
+- Frequent re-planning every movement step.
+- Nearest-door corridor selection.
+- Exploration strategies without loop detection.
+- Early maze-based approaches that provided limited opportunities for long-term planning.
+
+The final system combines memory, deterministic navigation, and optional LLM-based goal selection to produce more reliable goal-directed behaviour.
