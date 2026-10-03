@@ -14,8 +14,6 @@ The objective is to:
 4. Locate the exit
 5. Escape the dungeon
 
-This project was developed for the Humanoid Summer Internship Challenge.
-
 ---
 
 ## Features
